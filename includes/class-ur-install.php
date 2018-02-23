@@ -22,9 +22,17 @@ class UR_Install {
 		'1.0.0' => array(
 			'ur_update_100_db_version',
 		),
+		'1.1.0' => array(
+			'ur_update_110_options',
+			'ur_update_110_db_version',
+		),
 		'1.2.0' => array(
 			'ur_update_120_usermeta',
 			'ur_update_120_db_version',
+		),
+		'1.3.0' => array(
+			'ur_update_130_options',
+			'ur_update_130_db_version',
 		),
 	);
 

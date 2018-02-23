@@ -49,3 +49,35 @@ function ur_update_120_usermeta() {
 function ur_update_120_db_version() {
 	UR_Install::update_db_version( '1.2.0' );
 }
+
+/**
+ * Test DB updates callback.
+ */
+
+/**
+ * Update options.
+ */
+function ur_update_110_options() {
+	update_option( 'user_registration_test_110', 'Update callback for UR 1.1.0 is called.' );
+}
+
+/**
+ * Update DB Version.
+ */
+function ur_update_110_db_version() {
+	UR_Install::update_db_version( '1.1.0' );
+}
+
+/**
+ * Update options.
+ */
+function ur_update_130_options() {
+	update_option( 'user_registration_test_130', 'Update callback for UR 1.3.0 is called.' );
+}
+
+/**
+ * Update DB Version.
+ */
+function ur_update_130_db_version() {
+	UR_Install::update_db_version( '1.3.0' );
+}
